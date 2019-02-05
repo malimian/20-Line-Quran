@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/applicationSecand"
+    android:id="@+id/myScreen"
+    tools:context="com.hatinco.quran20lines.a20linequran.change_backcolor">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:layout_weight="1.09"
+            />
+           <ImageView
+               android:id="@+id/page"
+               android:src="@drawable/page5"
+               android:layout_width="match_parent"
+               android:layout_height="222dp"
+               android:layout_weight="1.09" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Build Page Overlay Color"
+            android:padding="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+        <SeekBar
+            android:background="#f70101"
+            android:padding="9dp"
+            android:id="@+id/mySeekingBar_R"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="255"
+            android:progress="0"/>
+        <SeekBar
+            android:background="#3af750"
+            android:padding="9dp"
+            android:id="@+id/mySeekingBar_G"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="255"
+            android:progress="0"/>
+        <SeekBar
+            android:background="#0122f7"
+            android:padding="9dp"
+            android:id="@+id/mySeekingBar_B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="255"
+            android:progress="0"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="13dp"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000"
+                android:background="@color/all_btn_color"
+                android:text="APPLY"
+                android:id="@+id/apply" />
+
+            <Button
+                android:layout_marginRight="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000"
+                android:background="@color/all_btn_color"
+                android:text="Reset"
+                android:id="@+id/reset" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

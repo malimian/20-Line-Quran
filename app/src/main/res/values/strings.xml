@@ -1,0 +1,553 @@
+<resources>
+    <string name="app_name">20 line Quran</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="sura_names_eng">
+        <item>Al-Fatihah</item>
+        <item>Al-Baqarah</item>
+        <item>Aal-E-Imran</item>
+        <item>An-Nisa\'</item>
+        <item>Al-Ma\'idah</item>
+        <item>Al-An\'am</item>
+        <item>Al-A\'raf</item>
+        <item>Al-Anfal</item>
+        <item>At-Tawbah</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Ar-Ra\'d</item>
+        <item>Ibrahim</item>
+        <item>Al-Hijr</item>
+        <item>An-Nahl</item>
+        <item>Al-Isra\'</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Ta-Ha</item>
+        <item>Al-Anbiya\'</item>
+        <item>Al-Hajj</item>
+        <item>Al-Mu\'minun</item>
+        <item>An-Nur</item>
+        <item>Al-Furqan</item>
+        <item>Ash-Shu\'ara</item>
+        <item>An-Naml</item>
+        <item>Al-Qasas</item>
+        <item>Al-Ankabut</item>
+        <item>Ar-Rum</item>
+        <item>Luqman</item>
+        <item>As-Sajdah</item>
+        <item>Al-Ahzab</item>
+        <item>Saba\'</item>
+        <item>Fatir</item>
+        <item>Ya-Seen</item>
+        <item>As-Saaffat</item>
+        <item>Sad</item>
+        <item>Az-Zumar</item>
+        <item>Ghafir</item>
+        <item>Fussilat</item>
+        <item>Ash-Shura</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhan</item>
+        <item>Al-Jathiya</item>
+        <item>Al-Ahqaf</item>
+        <item>Muhammad</item>
+        <item>Al-Fath</item>
+        <item>Al-Hujurat</item>
+        <item>Qaf</item>
+        <item>Adh-Dhariyat</item>
+        <item>At-Tur</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Rahman</item>
+        <item>Al-Waqi\'ah</item>
+        <item>Al-Hadid</item>
+        <item>Al-Mujadila</item>
+        <item>Al-Hashr</item>
+        <item>Al-Mumtahana</item>
+        <item>As-Saf</item>
+        <item>Al-Jumu\'ah</item>
+        <item>Al-Munafiqun</item>
+        <item>At-Taghabun</item>
+        <item>At-Talaq</item>
+        <item>At-Tahrim</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Haqqah</item>
+        <item>Al-Ma\'arij</item>
+        <item>Nuh</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddaththir</item>
+        <item>Al-Qiyamah</item>
+        <item>Al-Insan</item>
+        <item>Al-Mursalat</item>
+        <item>An-Naba\'</item>
+        <item>An-Nazi\'at</item>
+        <item>\'Abasa</item>
+        <item>At-Takwir</item>
+        <item>Al-Infitar</item>
+        <item>Al-Mutaffifin</item>
+        <item>Al-Inshiqaq</item>
+        <item>Al-Buruj</item>
+        <item>At-Tariq</item>
+        <item>Al-A\'la</item>
+        <item>Al-Ghashiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Ash-Shams</item>
+        <item>Al-Layl</item>
+        <item>Ad-Dhuhaa</item>
+        <item>Al-Sharh</item>
+        <item>At-Tin</item>
+        <item>Al-Alaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-Adiyat</item>
+        <item>Al-Qari\'ah</item>
+        <item>At-Takathur</item>
+        <item>Al-Asr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fil</item>
+        <item>Quraysh</item>
+        <item>Al-Ma\'un</item>
+        <item>Al-Kawthar</item>
+        <item>Al-Kafirun</item>
+        <item>An-Nasr</item>
+        <item>Al-Masad</item>
+        <item>Al-Ikhlas</item>
+        <item>Al-Falaq</item>
+        <item>An-Nas</item>
+    </string-array>
+
+
+
+
+    <integer-array name="sura_pages">
+        <item>2</item>
+        <item>3</item>
+        <item>31</item>
+        <item>48</item>
+        <item>65</item>
+        <item>78</item>
+        <item>92</item>
+        <item>108</item>
+        <item>114</item>
+        <item>126</item>
+        <item>134</item>
+        <item>143</item>
+        <item>151</item>
+        <item>155</item>
+        <item>156</item>
+        <item>162</item>
+        <item>171</item>
+        <item>178</item>
+        <item>185</item>
+        <item>189</item>
+        <item>195</item>
+        <item>201</item>
+        <item>207</item>
+        <item>211</item>
+        <item>217</item>
+        <item>221</item>
+        <item>227</item>
+        <item>233</item>
+        <item>239</item>
+        <item>244</item>
+        <item>248</item>
+        <item>250</item>
+        <item>252</item>
+        <item>258</item>
+        <item>262</item>
+        <item>266</item>
+        <item>269</item>
+        <item>273</item>
+        <item>276</item>
+        <item>282</item>
+        <item>287</item>
+        <item>291</item>
+        <item>295</item>
+        <item>299</item>
+        <item>300</item>
+        <item>303</item>
+        <item>305</item>
+        <item>308</item>
+        <item>310</item>
+        <item>312</item>
+        <item>314</item>
+        <item>315</item>
+        <item>317</item>
+        <item>318</item>
+        <item>320</item>
+        <item>322</item>
+        <item>324</item>
+        <item>327</item>
+        <item>329</item>
+        <item>331</item>
+        <item>333</item>
+        <item>334</item>
+        <item>336</item>
+        <item>336</item>
+        <item>338</item>
+        <item>339</item>
+        <item>341</item>
+        <item>342</item>
+        <item>344</item>
+        <item>345</item>
+        <item>346</item>
+        <item>348</item>
+        <item>349</item>
+        <item>350</item>
+        <item>351</item>
+        <item>352</item>
+        <item>353</item>
+        <item>355</item>
+        <item>356</item>
+        <item>357</item>
+        <item>357</item>
+        <item>358</item>
+        <item>358</item>
+        <item>359</item>
+        <item>360</item>
+        <item>360</item>
+        <item>361</item>
+        <item>361</item>
+        <item>362</item>
+        <item>362</item>
+        <item>363</item>
+        <item>363</item>
+        <item>363</item>
+        <item>363</item>
+        <item>364</item>
+        <item>364</item>
+        <item>364</item>
+        <item>365</item>
+        <item>365</item>
+        <item>366</item>
+        <item>366</item>
+        <item>366</item>
+        <item>366</item>
+        <item>367</item>
+        <item>367</item>
+        <item>367</item>
+        <item>367</item>
+        <item>367</item>
+        <item>368</item>
+        <item>368</item>
+        <item>368</item>
+        <item>368</item>
+        <item>369</item>
+        <item>369</item>
+    </integer-array>
+
+    <!-- If sura name has no translation, please add empty double quotes to the
+       respective item body to keep Android Studio happy -->
+    <string-array name="sura_names_translation">
+        <item>The Opener</item>
+        <item>The Cow</item>
+        <item>Family of Imran</item>
+        <item>The Women</item>
+        <item>The Table Spread</item>
+        <item>The Cattle</item>
+        <item>The Heights</item>
+        <item>The Spoils of War</item>
+        <item>The Repentance</item>
+        <item>Jonah</item>
+        <item>Hud</item>
+        <item>Joseph</item>
+        <item>The Thunder</item>
+        <item>Abrahim</item>
+        <item>The Rocky Tract</item>
+        <item>The Bee</item>
+        <item>The Night Journey</item>
+        <item>The Cave</item>
+        <item>Mary</item>
+        <item>Ta-Ha</item>
+        <item>The Prophets</item>
+        <item>The Pilgrimage</item>
+        <item>The Believers</item>
+        <item>The Light</item>
+        <item>The Criterian</item>
+        <item>The Poets</item>
+        <item>The Ant</item>
+        <item>The Stories</item>
+        <item>The Spider</item>
+        <item>The Romans</item>
+        <item>Luqman</item>
+        <item>The Prostration</item>
+        <item>The Combined Forces</item>
+        <item>Sheba</item>
+        <item>Originator</item>
+        <item>Ya Sin</item>
+        <item>Those who set the Ranks</item>
+        <item>The Letter &quot;Saad&quot;</item>
+        <item>The Troops</item>
+        <item>The Forgiver</item>
+        <item>Explained in Detail</item>
+        <item>The Consultation</item>
+        <item>The Ornaments of Gold</item>
+        <item>The Smoke</item>
+        <item>The Crouching</item>
+        <item>The Wind-Curved Sandhills</item>
+        <item>Muhammad</item>
+        <item>The Victory</item>
+        <item>The Rooms</item>
+        <item>The Letter &quot;Qaf&quot;</item>
+        <item>The Winnowing Winds</item>
+        <item>The Mount</item>
+        <item>The Star</item>
+        <item>The Moon</item>
+        <item>The Beneficent</item>
+        <item>The Inevitable</item>
+        <item>The Iron</item>
+        <item>The Pleading Woman</item>
+        <item>The Exile</item>
+        <item>She that is to be examined</item>
+        <item>The Ranks</item>
+        <item>The Congregation, Friday</item>
+        <item>The Hypocrites</item>
+        <item>The Mutual Disillusion</item>
+        <item>The Divorce</item>
+        <item>The Prohibtiion</item>
+        <item>The Sovereignty</item>
+        <item>The Pen</item>
+        <item>The Reality</item>
+        <item>The Ascending Stairways</item>
+        <item>Noah</item>
+        <item>The Jinn</item>
+        <item>The Enshrouded One</item>
+        <item>The Cloaked One</item>
+        <item>The Resurrection</item>
+        <item>The Man</item>
+        <item>The Emissaries</item>
+        <item>The Tidings</item>
+        <item>Those who drag forth</item>
+        <item>He Frowned</item>
+        <item>The Overthrowing</item>
+        <item>The Cleaving</item>
+        <item>The Defrauding</item>
+        <item>The Sundering</item>
+        <item>The Mansions of the Stars</item>
+        <item>The Nightcommer</item>
+        <item>The Most High</item>
+        <item>The Overwhelming</item>
+        <item>The Dawn</item>
+        <item>The City</item>
+        <item>The Sun</item>
+        <item>The Night</item>
+        <item>The Morning Hours</item>
+        <item>The Relief</item>
+        <item>The Fig</item>
+        <item>The Clot</item>
+        <item>The Power</item>
+        <item>The Clear Proof</item>
+        <item>The Earthquake</item>
+        <item>The Courser</item>
+        <item>The Calamity</item>
+        <item>The Rivalry in world increase</item>
+        <item>The Declining Day</item>
+        <item>The Traducer</item>
+        <item>The Elephant</item>
+        <item>Quraysh</item>
+        <item>The Small Kindnesses</item>
+        <item>The Abundance</item>
+        <item>The Disbelievers</item>
+        <item>The Divine Support</item>
+        <item>The Palm Fiber, Flame</item>
+        <item>The Sincerity</item>
+        <item>The Daybreak</item>
+        <item>The Mankind</item>
+    </string-array>
+
+
+    <string-array name="sura_names">
+        <item>الفاتحة</item>
+        <item>البقرة</item>
+        <item>آل عمران</item>
+        <item>النساء</item>
+        <item>المائدة</item>
+        <item>اﻷنعام</item>
+        <item>اﻷعراف</item>
+        <item>اﻷنفال</item>
+        <item>التوبة</item>
+        <item>يونس</item>
+        <item>هود</item>
+        <item>يوسف</item>
+        <item>الرعد</item>
+        <item>إبراهيم</item>
+        <item>الحجر</item>
+        <item>النحل</item>
+        <item>اﻹسراء</item>
+        <item>الكهف</item>
+        <item>مريم</item>
+        <item>طه</item>
+        <item>اﻷنبياء</item>
+        <item>الحج</item>
+        <item>المؤمنون</item>
+        <item>النور</item>
+        <item>الفرقان</item>
+        <item>الشعراء</item>
+        <item>النمل</item>
+        <item>القصص</item>
+        <item>العنكبوت</item>
+        <item>الروم</item>
+        <item>لقمان</item>
+        <item>السجدة</item>
+        <item>اﻷحزاب</item>
+        <item>سبأ</item>
+        <item>فاطر</item>
+        <item>يس</item>
+        <item>الصافات</item>
+        <item>ص</item>
+        <item>الزمر</item>
+        <item>غافر</item>
+        <item>فصلت</item>
+        <item>الشورى</item>
+        <item>الزخرف</item>
+        <item>الدخان</item>
+        <item>الجاثية</item>
+        <item>اﻷحقاف</item>
+        <item>محمد</item>
+        <item>الفتح</item>
+        <item>الحجرات</item>
+        <item>ق</item>
+        <item>الذاريات</item>
+        <item>الطور</item>
+        <item>النجم</item>
+        <item>القمر</item>
+        <item>الرحمن</item>
+        <item>الواقعة</item>
+        <item>الحديد</item>
+        <item>المجادلة</item>
+        <item>الحشر</item>
+        <item>الممتحنة</item>
+        <item>الصف</item>
+        <item>الجمعة</item>
+        <item>المنافقون</item>
+        <item>التغابن</item>
+        <item>الطلاق</item>
+        <item>التحريم</item>
+        <item>الملك</item>
+        <item>القلم</item>
+        <item>الحاقة</item>
+        <item>المعارج</item>
+        <item>نوح</item>
+        <item>الجن</item>
+        <item>المزمل</item>
+        <item>المدثر</item>
+        <item>القيامة</item>
+        <item>اﻹنسان</item>
+        <item>المرسلات</item>
+        <item>النبأ</item>
+        <item>النازعات</item>
+        <item>عبس</item>
+        <item>التكوير</item>
+        <item>الانفطار</item>
+        <item>المطففين</item>
+        <item>الانشقاق</item>
+        <item>البروج</item>
+        <item>الطارق</item>
+        <item>اﻷعلى</item>
+        <item>الغاشية</item>
+        <item>الفجر</item>
+        <item>البلد</item>
+        <item>الشمس</item>
+        <item>الليل</item>
+        <item>الضحى</item>
+        <item>الشرح</item>
+        <item>التين</item>
+        <item>العلق</item>
+        <item>القدر</item>
+        <item>البينة</item>
+        <item>الزلزلة</item>
+        <item>العاديات</item>
+        <item>القارعة</item>
+        <item>التكاثر</item>
+        <item>العصر</item>
+        <item>الهمزة</item>
+        <item>الفيل</item>
+        <item>قريش</item>
+        <item>الماعون</item>
+        <item>الكوثر</item>
+        <item>الكافرون</item>
+        <item>النصر</item>
+        <item>المسد</item>
+        <item>اﻹخلاص</item>
+        <item>الفلق</item>
+        <item>الناس</item>
+    </string-array>
+
+
+    <integer-array name="para_index">
+        <item>3</item>
+        <item>15</item>
+        <item>27</item>
+        <item>39</item>
+        <item>51</item>
+        <item>63</item>
+        <item>75</item>
+        <item>87</item>
+        <item>99</item>
+        <item>111</item>
+        <item>123</item>
+        <item>135</item>
+        <item>147</item>
+        <item>159</item>
+        <item>171</item>
+        <item>183</item>
+        <item>195</item>
+        <item>207</item>
+        <item>219</item>
+        <item>231</item>
+        <item>243</item>
+        <item>255</item>
+        <item>267</item>
+        <item>279</item>
+        <item>291</item>
+        <item>303</item>
+        <item>315</item>
+        <item>327</item>
+        <item>341</item>
+        <item>355</item>
+    </integer-array>
+
+    <string-array name="para_name">
+        <item>الم</item>
+        <item>سَيَقُولُ</item>
+        <item>تِلْكَ الرُّسُلُ</item>
+        <item>لَنْ تَنَالُوا</item>
+        <item>وَالْمُحْصَنَاتُ</item>
+        <item>لَا يُحِبُّ اللَّهُ</item>
+        <item>وَإِذَا سَمِعُوا</item>
+        <item>وَلَوْ أَنَّنَا</item>
+        <item>قَالَ الْمَلَأُ</item>
+        <item>وَاعْلَمُوا</item>
+        <item>يَعْتَذِرُونَ</item>
+        <item>وَمَا مِنْ دَابَّةٍ</item>
+        <item>وَمَا أُبَرِّئُ</item>
+        <item>رُبَمَا</item>
+        <item>سُبْحَانَ الَّذِي</item>
+        <item>قَالَ أَلَمْ</item>
+        <item>اقْتَرَبَ</item>
+        <item>قَدْ أَفْلَحَ</item>
+        <item>وَقَالَ الَّذِينَ</item>
+        <item>أَمَّنْ خَلَقَ</item>
+        <item>اتْلُ مَا أُوحِيَ</item>
+        <item>وَمَنْ يَقْنُتْ</item>
+        <item>وَمَا لِيَ</item>
+        <item>فَمَنْ أَظْلَمُ</item>
+        <item>إِلَيْهِ يُرَدُّ</item>
+        <item>حم</item>
+        <item>قَالَ فَمَا خَطْبُكُمْ</item>
+        <item>قَدْ سَمِعَ اللَّهُ</item>
+        <item>تَبَارَكَ الَّذِي</item>
+        <item>عَمَّ يَتَسَاءَلُونَ</item>
+    </string-array>
+    <string name="title_activity_bookmarks">Bookmarks</string>
+
+
+</resources>

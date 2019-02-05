@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/all_btn_color"
+    android:padding="16dp"
+    >
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Goto Page No#"
+        android:textColor="#000"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Enter Page Number From 1 - 368"
+        android:id="@+id/tv_download_info" />
+
+    <EditText
+        android:inputType="number"
+        android:background="@drawable/edit_txt"
+        android:textColor="#fff"
+        android:id="@+id/pageno_togo"
+        android:minHeight="55dip"
+        android:maxHeight="65dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:max="3" />
+
+    <Button
+        android:background="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="right"
+        android:textColor="#FFFFFF"
+        android:text="GO"
+        android:id="@+id/go" />
+
+</LinearLayout>

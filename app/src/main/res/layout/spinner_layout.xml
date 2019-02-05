@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:background="@color/bb_darkBackgroundColor"
+    android:height="64dp"
+    android:drawableLeft="@drawable/ic_goz"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Surat Ash-Shura"
+    android:gravity="center"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:textColor="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    />

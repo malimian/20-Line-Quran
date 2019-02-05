@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/quranbutton"
+        >
+    <shape>
+        <corners
+            android:topLeftRadius="6dp"
+            android:topRightRadius="6dp"
+            android:bottomRightRadius="6dp"
+            android:bottomLeftRadius="6dp">
+        </corners>
+        <stroke
+            android:width="3dp"
+            android:color="@color/colorPrimary">
+        </stroke>
+        <gradient
+            android:angle="270"
+            android:startColor="@color/colorPrimary"
+            android:endColor="#269383">
+        </gradient>
+    </shape>
+    </item>
+    <item android:state_pressed="false"
+        android:drawable="@drawable/button_selector">
+</item>
+</selector>

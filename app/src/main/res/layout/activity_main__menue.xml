@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/back_image"
+    android:paddingBottom="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:id="@+id/scrollView" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:id="@+id/resume_reading"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/all_btn_color"
+                    android:drawableLeft="@drawable/continuereading"
+                    android:text="Continue Reading"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <Button
+                    android:id="@+id/suraindex"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/all_btn_color"
+                    android:drawableTop="@drawable/ic_goz"
+                    android:drawableTint="#000"
+                    android:padding="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Sura Index"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/juzindex"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawableTint="#000"
+                    android:background="@color/all_btn_color"
+                    android:drawableTop="@drawable/ic_goz"
+                    android:padding="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Juz Index"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <Switch
+                    android:id="@+id/nightmode"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/all_btn_color"
+                    android:padding="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Night Mode"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/pagecolor"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/all_btn_color"
+                    android:padding="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Page overlay"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+                <Button
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/all_btn_color"
+                    android:padding="15dp"
+                    android:text="Bookmarks"
+                    android:paddingLeft="20dp"
+                    android:textSize="15dp"
+                    android:id="@+id/bookmarks"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:id="@+id/about_us"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/all_btn_color"
+                    android:padding="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="About Us"
+                    android:textSize="15dp" />
+
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

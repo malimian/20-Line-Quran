@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hatinco.quran20lines.a20linequran.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:keepScreenOn="true">
+
+    <com.hatinco.quran20lines.a20linequran.PageCurlView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dcgpagecurlPageCurlView1"
+    android:background="#000"
+    >
+    </com.hatinco.quran20lines.a20linequran.PageCurlView>
+
+</LinearLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--tools:showIn="@layout/app_bar_main"-->
+    <!--android:keepScreenOn="true"-->
+    <!--&gt;-->
+<!--<com.hatinco.quran20lines.a20linequran.PageCurlView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:id="@+id/dcgpagecurlPageCurlView1"-->
+    <!--android:background="#000"-->
+    <!--&gt;-->
+<!--</com.hatinco.quran20lines.a20linequran.PageCurlView>-->
+<!--</LinearLayout>-->
+

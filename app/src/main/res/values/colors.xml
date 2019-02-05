@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cc9f5e</color>
+    <color name="colorPrimaryTransperant">#B33E686A</color>
+    <color name="colorPrimaryDark">#2c4a4c</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="pressed_color">#4d90fe</color>
+    <color name="default_color">#ffffff</color>
+    <color name="applicationSecand">#303030</color>
+    <color name="smallTextColor">#4C8084</color>
+    <color name="headerhighlightHomeActivity">#5a979a</color>
+    <color name="headerHomeActivity">#993E686A</color>
+    <color name="itemhighlightHomeActivity">#121f1f</color>
+    <color name="itemHomeActivity">#303030</color>
+    <color name="buttonselector">#d7acacac</color>
+    <color name="cardview_light_background">#fafafa</color>
+    <color name="cardview_dark_background">#4e4d4d</color>
+    <color name="all_btn_color">#e5c890</color>
+
+</resources>

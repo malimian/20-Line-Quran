@@ -1,0 +1,35 @@
+<tabs>
+    <tab
+        id="@+id/bottom_bar_starbutton"
+        icon="@drawable/ic_starbutton"
+        title="Bookmark"
+        iconOnly="true"
+        />
+
+    <tab
+        id="@+id/bottom_bar_night_mode"
+        icon="@drawable/ic_contrast"
+        title="Brightness"
+        iconOnly="true"
+        />
+    <tab
+        id="@+id/bottom_bar_night_sound"
+        icon="@drawable/ic_speaker"
+        title="Sound"
+        iconOnly="true"
+        />
+
+    <tab
+        id="@+id/bottom_bar_night_ic_share"
+        icon="@drawable/ic_share"
+        title="Share"
+        iconOnly="true"
+        />
+
+    <tab
+        id="@+id/bottom_bar_show_bar"
+        icon="@drawable/ichide"
+        title="Hide Tool Bar"
+        iconOnly="true"
+        />
+</tabs>

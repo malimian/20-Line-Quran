@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_dark_background"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:padding="2dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Set Bookmark"
+        android:textColor="#fff"
+        />
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/rl_sora_item"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Surat Al-Baqarah"
+            android:id="@+id/surat_name_book"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Surat Al-Baqarah"
+            android:id="@+id/surat_name_translation_book"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="page 7"
+            android:id="@+id/pageno_page"
+            android:textColor="#000" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Juza 11"
+            android:id="@+id/pageno_juz"
+            android:textColor="#000" />
+
+    </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Set title for bookmark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+         />
+
+    <EditText
+        android:inputType="textPersonName"
+        android:background="@drawable/edit_txt"
+        android:textColor="#000"
+        android:id="@+id/title_book"
+        android:minHeight="55dip"
+        android:maxHeight="65dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:max="55" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:text="CANCEL"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/save_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:text="SAVE"
+            android:textColor="#000" />
+    </LinearLayout>
+
+</LinearLayout>
